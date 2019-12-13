@@ -15,5 +15,5 @@ def math_x():
     print(x)
 
 wrapper(hello_func)
-wrapper(math_x())
+wrapper(math_x)
 
