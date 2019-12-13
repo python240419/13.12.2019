@@ -1,10 +1,10 @@
 # decorator - function which calls another function
 def wrapper(your_function):
-    print("before f2 ===========")
+    print("before your_function ===========")
 
     your_function()
 
-    print("after f2 ===========")
+    print("after your_function ===========")
 
 def hello_func():
     print("hello world!")
